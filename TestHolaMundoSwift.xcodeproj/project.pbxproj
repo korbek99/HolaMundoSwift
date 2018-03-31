@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		579632D8206FBE6C007CAAF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579632D7206FBE6C007CAAF5 /* AppDelegate.swift */; };
+		579632DA206FBE6C007CAAF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579632D9206FBE6C007CAAF5 /* ViewController.swift */; };
+		579632DD206FBE6C007CAAF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579632DB206FBE6C007CAAF5 /* Main.storyboard */; };
+		579632E0206FBE6C007CAAF5 /* TestHolaMundoSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 579632DE206FBE6C007CAAF5 /* TestHolaMundoSwift.xcdatamodeld */; };
+		579632E2206FBE6C007CAAF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579632E1206FBE6C007CAAF5 /* Assets.xcassets */; };
+		579632E5206FBE6C007CAAF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579632E3206FBE6C007CAAF5 /* LaunchScreen.storyboard */; };
+		579632F0206FBE6C007CAAF5 /* TestHolaMundoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579632EF206FBE6C007CAAF5 /* TestHolaMundoSwiftTests.swift */; };
+		579632FB206FBE6C007CAAF5 /* TestHolaMundoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579632FA206FBE6C007CAAF5 /* TestHolaMundoSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		579632EC206FBE6C007CAAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579632CC206FBE6C007CAAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579632D3206FBE6C007CAAF5;
+			remoteInfo = TestHolaMundoSwift;
+		};
+		579632F7206FBE6C007CAAF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 579632CC206FBE6C007CAAF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 579632D3206FBE6C007CAAF5;
+			remoteInfo = TestHolaMundoSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		579632D4206FBE6C007CAAF5 /* TestHolaMundoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHolaMundoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		579632D7206FBE6C007CAAF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		579632D9206FBE6C007CAAF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		579632DC206FBE6C007CAAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		579632DF206FBE6C007CAAF5 /* TestHolaMundoSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestHolaMundoSwift.xcdatamodel; sourceTree = "<group>"; };
+		579632E1206FBE6C007CAAF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		579632E4206FBE6C007CAAF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		579632E6206FBE6C007CAAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579632EB206FBE6C007CAAF5 /* TestHolaMundoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestHolaMundoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		579632EF206FBE6C007CAAF5 /* TestHolaMundoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHolaMundoSwiftTests.swift; sourceTree = "<group>"; };
+		579632F1206FBE6C007CAAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579632F6206FBE6C007CAAF5 /* TestHolaMundoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestHolaMundoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		579632FA206FBE6C007CAAF5 /* TestHolaMundoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHolaMundoSwiftUITests.swift; sourceTree = "<group>"; };
+		579632FC206FBE6C007CAAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		579632D1206FBE6C007CAAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579632E8206FBE6C007CAAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579632F3206FBE6C007CAAF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		579632CB206FBE6C007CAAF5 = {
+			isa = PBXGroup;
+			children = (
+				579632D6206FBE6C007CAAF5 /* TestHolaMundoSwift */,
+				579632EE206FBE6C007CAAF5 /* TestHolaMundoSwiftTests */,
+				579632F9206FBE6C007CAAF5 /* TestHolaMundoSwiftUITests */,
+				579632D5206FBE6C007CAAF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		579632D5206FBE6C007CAAF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				579632D4206FBE6C007CAAF5 /* TestHolaMundoSwift.app */,
+				579632EB206FBE6C007CAAF5 /* TestHolaMundoSwiftTests.xctest */,
+				579632F6206FBE6C007CAAF5 /* TestHolaMundoSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		579632D6206FBE6C007CAAF5 /* TestHolaMundoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				579632D7206FBE6C007CAAF5 /* AppDelegate.swift */,
+				579632D9206FBE6C007CAAF5 /* ViewController.swift */,
+				579632DB206FBE6C007CAAF5 /* Main.storyboard */,
+				579632E1206FBE6C007CAAF5 /* Assets.xcassets */,
+				579632E3206FBE6C007CAAF5 /* LaunchScreen.storyboard */,
+				579632E6206FBE6C007CAAF5 /* Info.plist */,
+				579632DE206FBE6C007CAAF5 /* TestHolaMundoSwift.xcdatamodeld */,
+			);
+			path = TestHolaMundoSwift;
+			sourceTree = "<group>";
+		};
+		579632EE206FBE6C007CAAF5 /* TestHolaMundoSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				579632EF206FBE6C007CAAF5 /* TestHolaMundoSwiftTests.swift */,
+				579632F1206FBE6C007CAAF5 /* Info.plist */,
+			);
+			path = TestHolaMundoSwiftTests;
+			sourceTree = "<group>";
+		};
+		579632F9206FBE6C007CAAF5 /* TestHolaMundoSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				579632FA206FBE6C007CAAF5 /* TestHolaMundoSwiftUITests.swift */,
+				579632FC206FBE6C007CAAF5 /* Info.plist */,
+			);
+			path = TestHolaMundoSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		579632D3206FBE6C007CAAF5 /* TestHolaMundoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579632FF206FBE6C007CAAF5 /* Build configuration list for PBXNativeTarget "TestHolaMundoSwift" */;
+			buildPhases = (
+				579632D0206FBE6C007CAAF5 /* Sources */,
+				579632D1206FBE6C007CAAF5 /* Frameworks */,
+				579632D2206FBE6C007CAAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestHolaMundoSwift;
+			productName = TestHolaMundoSwift;
+			productReference = 579632D4206FBE6C007CAAF5 /* TestHolaMundoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		579632EA206FBE6C007CAAF5 /* TestHolaMundoSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57963302206FBE6C007CAAF5 /* Build configuration list for PBXNativeTarget "TestHolaMundoSwiftTests" */;
+			buildPhases = (
+				579632E7206FBE6C007CAAF5 /* Sources */,
+				579632E8206FBE6C007CAAF5 /* Frameworks */,
+				579632E9206FBE6C007CAAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				579632ED206FBE6C007CAAF5 /* PBXTargetDependency */,
+			);
+			name = TestHolaMundoSwiftTests;
+			productName = TestHolaMundoSwiftTests;
+			productReference = 579632EB206FBE6C007CAAF5 /* TestHolaMundoSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		579632F5206FBE6C007CAAF5 /* TestHolaMundoSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57963305206FBE6C007CAAF5 /* Build configuration list for PBXNativeTarget "TestHolaMundoSwiftUITests" */;
+			buildPhases = (
+				579632F2206FBE6C007CAAF5 /* Sources */,
+				579632F3206FBE6C007CAAF5 /* Frameworks */,
+				579632F4206FBE6C007CAAF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				579632F8206FBE6C007CAAF5 /* PBXTargetDependency */,
+			);
+			name = TestHolaMundoSwiftUITests;
+			productName = TestHolaMundoSwiftUITests;
+			productReference = 579632F6206FBE6C007CAAF5 /* TestHolaMundoSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		579632CC206FBE6C007CAAF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jose David Bustos H";
+				TargetAttributes = {
+					579632D3206FBE6C007CAAF5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2U7FA696SS;
+						ProvisioningStyle = Automatic;
+					};
+					579632EA206FBE6C007CAAF5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 828LF57WA4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 579632D3206FBE6C007CAAF5;
+					};
+					579632F5206FBE6C007CAAF5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 828LF57WA4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 579632D3206FBE6C007CAAF5;
+					};
+				};
+			};
+			buildConfigurationList = 579632CF206FBE6C007CAAF5 /* Build configuration list for PBXProject "TestHolaMundoSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 579632CB206FBE6C007CAAF5;
+			productRefGroup = 579632D5206FBE6C007CAAF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				579632D3206FBE6C007CAAF5 /* TestHolaMundoSwift */,
+				579632EA206FBE6C007CAAF5 /* TestHolaMundoSwiftTests */,
+				579632F5206FBE6C007CAAF5 /* TestHolaMundoSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		579632D2206FBE6C007CAAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579632E5206FBE6C007CAAF5 /* LaunchScreen.storyboard in Resources */,
+				579632E2206FBE6C007CAAF5 /* Assets.xcassets in Resources */,
+				579632DD206FBE6C007CAAF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579632E9206FBE6C007CAAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579632F4206FBE6C007CAAF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		579632D0206FBE6C007CAAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579632DA206FBE6C007CAAF5 /* ViewController.swift in Sources */,
+				579632D8206FBE6C007CAAF5 /* AppDelegate.swift in Sources */,
+				579632E0206FBE6C007CAAF5 /* TestHolaMundoSwift.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579632E7206FBE6C007CAAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579632F0206FBE6C007CAAF5 /* TestHolaMundoSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		579632F2206FBE6C007CAAF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579632FB206FBE6C007CAAF5 /* TestHolaMundoSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		579632ED206FBE6C007CAAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579632D3206FBE6C007CAAF5 /* TestHolaMundoSwift */;
+			targetProxy = 579632EC206FBE6C007CAAF5 /* PBXContainerItemProxy */;
+		};
+		579632F8206FBE6C007CAAF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 579632D3206FBE6C007CAAF5 /* TestHolaMundoSwift */;
+			targetProxy = 579632F7206FBE6C007CAAF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		579632DB206FBE6C007CAAF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579632DC206FBE6C007CAAF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		579632E3206FBE6C007CAAF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				579632E4206FBE6C007CAAF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		579632FD206FBE6C007CAAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		579632FE206FBE6C007CAAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57963300206FBE6C007CAAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				INFOPLIST_FILE = TestHolaMundoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.TestHolaMundoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		57963301206FBE6C007CAAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2U7FA696SS;
+				INFOPLIST_FILE = TestHolaMundoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.TestHolaMundoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		57963303206FBE6C007CAAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 828LF57WA4;
+				INFOPLIST_FILE = TestHolaMundoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.TestHolaMundoSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestHolaMundoSwift.app/TestHolaMundoSwift";
+			};
+			name = Debug;
+		};
+		57963304206FBE6C007CAAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 828LF57WA4;
+				INFOPLIST_FILE = TestHolaMundoSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.TestHolaMundoSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestHolaMundoSwift.app/TestHolaMundoSwift";
+			};
+			name = Release;
+		};
+		57963306206FBE6C007CAAF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 828LF57WA4;
+				INFOPLIST_FILE = TestHolaMundoSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.TestHolaMundoSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TestHolaMundoSwift;
+			};
+			name = Debug;
+		};
+		57963307206FBE6C007CAAF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 828LF57WA4;
+				INFOPLIST_FILE = TestHolaMundoSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KorbekSA.TestHolaMundoSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TestHolaMundoSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		579632CF206FBE6C007CAAF5 /* Build configuration list for PBXProject "TestHolaMundoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579632FD206FBE6C007CAAF5 /* Debug */,
+				579632FE206FBE6C007CAAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579632FF206FBE6C007CAAF5 /* Build configuration list for PBXNativeTarget "TestHolaMundoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57963300206FBE6C007CAAF5 /* Debug */,
+				57963301206FBE6C007CAAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57963302206FBE6C007CAAF5 /* Build configuration list for PBXNativeTarget "TestHolaMundoSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57963303206FBE6C007CAAF5 /* Debug */,
+				57963304206FBE6C007CAAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57963305206FBE6C007CAAF5 /* Build configuration list for PBXNativeTarget "TestHolaMundoSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57963306206FBE6C007CAAF5 /* Debug */,
+				57963307206FBE6C007CAAF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		579632DE206FBE6C007CAAF5 /* TestHolaMundoSwift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				579632DF206FBE6C007CAAF5 /* TestHolaMundoSwift.xcdatamodel */,
+			);
+			currentVersion = 579632DF206FBE6C007CAAF5 /* TestHolaMundoSwift.xcdatamodel */;
+			path = TestHolaMundoSwift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 579632CC206FBE6C007CAAF5 /* Project object */;
+}
